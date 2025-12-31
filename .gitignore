@@ -1,0 +1,10 @@
+# 1. Ignore the entire Build folder (binaries + intermediates)
+Build/
+
+# 2. Ignore Visual Studio local user settings
+.vs/
+*.user
+
+# 3. Ignore system thumbnails (optional but good practice)
+Thumbs.db
+.DS_Store
