@@ -13,7 +13,8 @@ void Game::render()
 }
 
 void Game::run()
-{
+{	
+	std::cout<<"Game is running!"<<std::endl;
 	while (m_window.isOpen())
 	{
 		render();
